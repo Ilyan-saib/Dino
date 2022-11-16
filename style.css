@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.JumpAnimation {
+  position: relative;
+  animation: jump 10s infinite;
+}
+
+@keyframes jump {
+
+  0% {
+    bottom: 50px;
+  }
+
+  20% {
+    bottom: 100px;
+  }
+
+  40% {
+    bottom: 150px;
+  }
+
+  60% {
+    bottom: 200px;
+  }
+
+  80% {
+    bottom: 250px;
+  }
+
+  99% {
+    bottom: 300px;
+  }
+
+  100% {
+    bottom: 0px;
+  }
+
+}
